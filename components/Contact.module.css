@@ -1,0 +1,68 @@
+.section {
+    padding: 80px 48px;
+    border-top: 1px solid #161616;
+}
+
+.sectionLabel {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: #7fffb2;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.sectionLabel::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #1e1e1e;
+    max-width: 200px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 480px;
+}
+
+.desc {
+    font-size: 14px;
+    color: #555;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 24px;
+    background: #111;
+    border: 1px solid #1e1e1e;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: border-color 0.2s;
+}
+
+.link:hover {
+    border-color: #7fffb2;
+}
+
+.key {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: #7fffb2;
+    min-width: 72px;
+    letter-spacing: 0.05em;
+}
+
+.val {
+    font-size: 14px;
+    color: #666;
+}

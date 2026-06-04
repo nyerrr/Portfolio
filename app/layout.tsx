@@ -2,18 +2,25 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Rainier Burlasa - Full-Stack Developer',
-  description: 'Full-stack developer with 5 years of experience building scalable web products.',
+    title: 'Rainier Burlasa - Full-Stack Developer',
+    description: 'Full-stack developer with 5 years of experience building scalable web products.',
 }
-  
+
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode
+    children: React.ReactNode
 }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+    return (
+        <html lang="en">
+            <head>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+                <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+            </head>
+            <body>
+                {children}
+            </body>
+        </html>
+    )
 }

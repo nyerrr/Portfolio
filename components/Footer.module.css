@@ -1,0 +1,31 @@
+.footer {
+    padding: 28px 48px;
+    border-top: 1px solid #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: #2a2a2a;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: #333;
+}
+
+.pulse {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #7fffb2;
+    animation: pulse 2s infinite;
+    display: inline-block;
+}

@@ -1,0 +1,62 @@
+.section {
+    padding: 80px 48px;
+    border-top: 1px solid #161616;
+}
+
+.sectionLabel {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: #7fffb2;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.sectionLabel::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #1e1e1e;
+    max-width: 200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cell {
+    padding: 20px 24px;
+    background: #0f0f0f;
+    border-right: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    transition: background 0.2s;
+    cursor: default;
+}
+
+.cell:hover {
+    background: #141414;
+}
+
+.name {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: #666;
+    transition: color 0.2s;
+}
+
+.cell:hover .name {
+    color: #7fffb2;
+}
+
+.cat {
+    font-size: 11px;
+    color: #333;
+    margin-top: 4px;
+}
