@@ -1,8 +1,5 @@
 .hero {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 120px 48px 80px;
     overflow: hidden;
 }
@@ -99,8 +96,8 @@
     font-size: 13px;
     padding: 12px 28px;
     background: transparent;
-    color: #666;
-    border: 1px solid #222;
+    color: #ffffff;
+    border: 1px solid #0f873f;
     border-radius: 4px;
     cursor: pointer;
     letter-spacing: 0.05em;
@@ -137,4 +134,75 @@
     font-size: 12px;
     color: #555;
     margin-top: 4px;
+}
+
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+
+.layout {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+    min-width: 0;
+}
+
+.right {
+    flex-shrink: 0;
+}
+
+.imageFrame {
+    position: relative;
+    padding: 12px 0 0 12px;
+}
+
+.imageFrame::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    border: 1px solid #0f873f;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.imageWrapper {
+    width: 380px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid #1e1e1e;
+    overflow: hidden;
+    position: relative;
+    background: #111;
+    z-index: 1;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 100px 24px 60px;
+    }
+
+    .layout {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .right {
+        display: none;
+    }
 }

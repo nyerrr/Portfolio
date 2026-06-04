@@ -22,7 +22,7 @@ export const projects = [
     number: '01',
     title: 'GAIDA',
     description:
-      'Multimodal anxiety detection PWA using voice and text input. Trained on 1,000+ data points with Random Forest, Neural Network, and Logistic Regression ensemble. Includes a real-time counselor panel with live chat monitoring and intervention.',
+      'AI-powered mental health support PWA for university students. Detects anxiety through voice and text using a 3-model ML ensemble (Random Forest, Neural Network, Logistic Regression) with fuzzy crisis detection. Features real-time counselor monitoring, live intervention, and Philippine language support via fine-tuned GPT-3.5 and Whisper.',
     tags: ['Python', 'Machine Learning', 'PWA', 'Real-time'],
     url: 'YOUR_GAIDA_URL',
   },

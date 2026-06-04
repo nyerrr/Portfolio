@@ -102,3 +102,13 @@
     color: #7fffb2;
     letter-spacing: 0.05em;
 }
+
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 24px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
