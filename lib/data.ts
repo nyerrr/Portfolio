@@ -24,7 +24,7 @@ export const projects = [
     description:
       'AI-powered mental health support PWA for university students. Detects anxiety through voice and text using a 3-model ML ensemble (Random Forest, Neural Network, Logistic Regression) with fuzzy crisis detection. Features real-time counselor monitoring, live intervention, and Philippine language support via fine-tuned GPT-3.5 and Whisper.',
     tags: ['Python', 'Machine Learning', 'PWA', 'Real-time'],
-    url: 'YOUR_GAIDA_URL',
+    url: 'https://github.com/nyerrr/gaida-system',
   },
   {
     number: '02',
@@ -32,7 +32,7 @@ export const projects = [
     description:
       'Inflation trend monitoring PWA that scrapes live data from PSA, DA CALABARZON, and fuel price sources. Features 6-month trend analysis, a price calculator, AI recommendations, and an OpenAI-powered agent.',
     tags: ['Web Scraping', 'OpenAI', 'PWA', 'Data Viz'],
-    url: 'YOUR_PRESYON_URL',
+    url: 'https://presyo-ph-sigma.vercel.app/',
   },
   {
     number: '03',
@@ -40,7 +40,7 @@ export const projects = [
     description:
       'Real estate platform rebuilt from scratch with a modern UI/UX, property modals, and a full admin panel. Admins can manage listings with full CRUD, image uploads, and monitor active users.',
     tags: ['Next.js', 'TypeScript', 'Admin Panel', 'CRUD'],
-    url: 'YOUR_COMPANERO_URL',
+    url: 'https://github.com/nyerrr/verge-website',
   },
   {
     number: '04',
@@ -48,7 +48,7 @@ export const projects = [
     description:
       'Photobooth service website for a small business with an admin panel for managing reviews and inquiries from customers.',
     tags: ['Next.js', 'TypeScript', 'Admin Panel'],
-    url: 'YOUR_PRISMOLENS_URL',
+    url: 'https://prismolens.vercel.app/',
   },
 ]
 
