@@ -1,56 +1,68 @@
 export const personalInfo = {
   name: 'Rainier Burlasa',
   role: 'Full-Stack Developer',
-  tagline: 'I build fast, scalable web products - from zero to production.',
+  tagline: 'I build real products — from thesis to production.',
   description:
-    'Focused on clean architecture, great DX, and interfaces people actually enjoy using. Open to freelance and full-time opportunities.',
-  email: 'rainier@burlasa.dev',
-  github: 'https://github.com/YOUR_USERNAME',
-  linkedin: 'https://linkedin.com/in/YOUR_USERNAME',
+    'CS student graduating with 4 years of hands-on experience building full-stack web apps and AI-powered systems. Open to full-time and freelance opportunities.',
+  email: 'rainierburlasa472@gmail.com',
+  github: 'https://github.com/nyerrr',
+  linkedin: 'https://www.linkedin.com/in/burlasa-rainier-j-862597377/',
   resumeUrl: '/resume.pdf',
   available: true,
 }
 
 export const stats = [
-  { number: '5+', label: 'years experience' },
-  { number: '30+', label: 'projects shipped' },
-  { number: '12+', label: 'happy clients' },
+  { number: '4+', label: 'years coding' },
+  { number: '5+', label: 'projects built' },
+  { number: '200', label: 'hours internship' },
 ]
 
 export const projects = [
   {
     number: '01',
-    title: 'dashboard.saas',
+    title: 'GAIDA',
     description:
-      'Real-time analytics platform handling 2M+ events/day with live charts and role-based access.',
-    tags: ['Next.js', 'Prisma', 'WebSockets'],
-    url: '#',
+      'Multimodal anxiety detection PWA using voice and text input. Trained on 1,000+ data points with Random Forest, Neural Network, and Logistic Regression ensemble. Includes a real-time counselor panel with live chat monitoring and intervention.',
+    tags: ['Python', 'Machine Learning', 'PWA', 'Real-time'],
+    url: 'YOUR_GAIDA_URL',
   },
   {
     number: '02',
-    title: 'checkout.flow',
+    title: 'PresyOn',
     description:
-      'E-commerce checkout redesign that reduced cart abandonment by 34% through UX improvements.',
-    tags: ['React', 'Stripe', 'TypeScript'],
-    url: '#',
+      'Inflation trend monitoring PWA that scrapes live data from PSA, DA CALABARZON, and fuel price sources. Features 6-month trend analysis, a price calculator, AI recommendations, and an OpenAI-powered agent.',
+    tags: ['Web Scraping', 'OpenAI', 'PWA', 'Data Viz'],
+    url: 'YOUR_PRESYON_URL',
   },
   {
     number: '03',
-    title: 'api.gateway',
+    title: 'Companero Realty',
     description:
-      'Microservices API gateway with auth, rate limiting, and observability baked in from day one.',
-    tags: ['Node.js', 'Redis', 'Docker'],
-    url: '#',
+      'Real estate platform rebuilt from scratch with a modern UI/UX, property modals, and a full admin panel. Admins can manage listings with full CRUD, image uploads, and monitor active users.',
+    tags: ['Next.js', 'TypeScript', 'Admin Panel', 'CRUD'],
+    url: 'YOUR_COMPANERO_URL',
+  },
+  {
+    number: '04',
+    title: 'PrismoLens',
+    description:
+      'Photobooth service website for a small business with an admin panel for managing reviews and inquiries from customers.',
+    tags: ['Next.js', 'TypeScript', 'Admin Panel'],
+    url: 'YOUR_PRISMOLENS_URL',
   },
 ]
 
 export const skills = [
   { name: 'React / Next.js', category: 'frontend' },
   { name: 'TypeScript', category: 'language' },
+  { name: 'Python', category: 'language' },
   { name: 'Node.js', category: 'runtime' },
   { name: 'PostgreSQL', category: 'database' },
+  { name: 'Supabase', category: 'database' },
+  { name: 'Machine Learning', category: 'AI/ML' },
+  { name: 'OpenAI API', category: 'AI/ML' },
   { name: 'Tailwind CSS', category: 'styling' },
   { name: 'Docker', category: 'devops' },
-  { name: 'AWS / Vercel', category: 'cloud' },
-  { name: 'Redis', category: 'caching' },
+  { name: 'Web Scraping', category: 'data' },
+  { name: 'PWA', category: 'frontend' },
 ]

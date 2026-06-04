@@ -34,7 +34,7 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                    // {personalInfo.role.toLowerCase()} · 5 years
+                    // {personalInfo.role.toLowerCase()}
                 </motion.p>
 
                 <motion.p
