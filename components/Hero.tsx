@@ -58,7 +58,7 @@ export default function Hero() {
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
                         <a href="#work" className={styles.btnPrimary}>view work →</a>
-                        <a href={personalInfo.resumeUrl} className={styles.btnGhost}>download resume</a>
+                        <a href={personalInfo.resumeUrl} download className={styles.btnGhost}>download resume</a>
                     </motion.div>
 
                     <motion.div
