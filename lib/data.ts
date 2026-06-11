@@ -50,6 +50,14 @@ export const projects = [
     tags: ['Next.js', 'TypeScript', 'Admin Panel'],
     url: 'https://prismolens.vercel.app/',
   },
+  {
+    numer: '05',
+    title: 'TindahanLink',
+    description:
+      'TindahanLink is a free, installable web app that helps Filipino micro-store owners manage their inventory, track sales, record utang, and get smart restock suggestions - all from their phone.',
+    tags: ['React + Vite', 'Tailwind CSS', 'Supabase', 'Recharts', 'Framer Motion', 'OpenWeatherMap API', 'PWA (vite-plugin-pwa)' ],
+    url: 'https://tindahan-link.vercel.app/',
+  }
 ]
 
 export const skills = [
