@@ -81,4 +81,11 @@ export const skills = [
   { name: 'Docker', category: 'devops' },
   { name: 'Web Scraping', category: 'data' },
   { name: 'PWA', category: 'frontend' },
+  { name: 'Framer Motion', category: 'frontend' },
+  { name: 'Vite', category: 'build tools' },
+  { name: 'FastAPI', category: 'backend' },
+  { name: 'OpenCV', category: 'AI/ML' },
+  { name: 'MediaPipe Tasks Vision', category: 'AI/ML' },
+  { name: 'Vercel', category: 'deployment' },
+  { name: 'Render', category: 'deployment' },
 ]
