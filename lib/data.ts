@@ -7,7 +7,7 @@ export const personalInfo = {
   email: 'rainierburlasa472@gmail.com',
   github: 'https://github.com/nyerrr',
   linkedin: 'https://www.linkedin.com/in/burlasa-rainier-j-862597377/',
-  resumeUrl: '/CV Burlasa, Rainier J..pdf',
+  resumeUrl: '/CV BURLASA, RAINIER.pdf',
   available: true,
 }
 
