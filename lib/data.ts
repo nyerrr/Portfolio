@@ -57,6 +57,14 @@ export const projects = [
       'TindahanLink is a free, installable web app that helps Filipino micro-store owners manage their inventory, track sales, record utang, and get smart restock suggestions - all from their phone.',
     tags: ['React + Vite', 'Tailwind CSS', 'Supabase', 'Recharts', 'Framer Motion', 'OpenWeatherMap API', 'PWA (vite-plugin-pwa)' ],
     url: 'https://tindahan-link.vercel.app/',
+  },
+  {
+    number: '06',
+    title: 'Dance-coach',
+    description:
+      'Dance coach is an AI-powered web app that helps users learn and practice dance routines with real-time pose feedback.',
+    tags: ['React + Vite', 'MediaPipe Tasks Vision', 'Supabase JS client', 'Vite-plugin-PWA', 'Tailwind CSS V4', 'FastAPI', 'OpenCV', 'Vercel', 'Render'],
+    url: 'https://dance-coach-six.vercel.app/',
   }
 ]
 
