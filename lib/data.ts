@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: 'Rainier Burlasa',
-  role: 'Full-Stack Developer',
+  role: 'Backend Developer | Software Engineer | AI/ML Enthusiast',
   tagline: 'I build real products — from thesis to production.',
   description:
     'CS student graduating with 4 years of hands-on experience building full-stack web apps and AI-powered systems. Open to full-time and freelance opportunities.',
@@ -24,7 +24,7 @@ export const projects = [
     description:
       'AI-powered mental health support PWA for university students. Detects anxiety through voice and text using a 3-model ML ensemble (Random Forest, Neural Network, Logistic Regression) with fuzzy crisis detection. Features real-time counselor monitoring, live intervention, and Philippine language support via fine-tuned GPT-3.5 and Whisper.',
     tags: ['Python', 'Machine Learning', 'PWA', 'Real-time'],
-    url: 'https://github.com/nyerrr/gaida-system',
+    url: 'http://gaida-system.vercel.app/',
   },
   {
     number: '02',
