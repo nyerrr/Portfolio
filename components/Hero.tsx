@@ -6,6 +6,8 @@ import Image from 'next/image'
 import styles from './Hero.module.css'
 
 export default function Hero() {
+    const resumeFileName = decodeURIComponent(personalInfo.resumeUrl).split('/').pop()
+
     return (
         <section className={styles.hero}>
             <div className={styles.dotBg} />
@@ -58,7 +60,7 @@ export default function Hero() {
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
                         <a href="#work" className={styles.btnPrimary}>view work →</a>
-                        <a href={personalInfo.resumeUrl} download className={styles.btnGhost}>download resume</a>
+                        <a href={personalInfo.resumeUrl} download={resumeFileName} className={styles.btnGhost}>download resume</a>
                     </motion.div>
 
                     <motion.div
