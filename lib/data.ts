@@ -51,7 +51,7 @@ export const projects = [
     url: 'https://prismolens.vercel.app/',
   },
   {
-    numer: '05',
+    number: '05',
     title: 'TindahanLink',
     description:
       'TindahanLink is a free, installable web app that helps Filipino micro-store owners manage their inventory, track sales, record utang, and get smart restock suggestions - all from their phone.',

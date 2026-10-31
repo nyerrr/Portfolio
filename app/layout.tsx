@@ -1,9 +1,14 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
     title: 'Rainier Burlasa - Full-Stack Developer',
     description: 'Full-stack developer with 5 years of experience building scalable web products.',
+}
+
+export const viewport: Viewport = {
+    themeColor: '#eef1ef',
+    colorScheme: 'light',
 }
 
 export default function RootLayout({

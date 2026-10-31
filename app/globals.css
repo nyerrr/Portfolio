@@ -1,4 +1,28 @@
 /* ============================================================
+   THEME TOKENS
+   Soft, low-glare light palette. Tune brightness here:
+   the whole site reads from these variables.
+   ============================================================ */
+
+:root {
+    --bg: #eef1ef;
+    --surface: #f8faf9;
+    --surface-hover: #e8efeb;
+    --border: #d9dfdc;
+    --border-soft: #e3e8e5;
+    --text-strong: #232a27;
+    --text: #3f4945;
+    --text-muted: #5d6862;
+    --text-faint: #78817b;
+    --accent: #0d7a3c;
+    --accent-strong: #0a6531;
+    --mint: #7fffb2;
+    --chip-bg: #e3f2e9;
+    --chip-border: #c8ded2;
+}
+
+
+/* ============================================================
    RESET & BASE
    ============================================================ */
 
@@ -8,17 +32,24 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background: #0a0a0a;
-    color: #e2e2e2;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-    background: #7fffb2;
+    background: var(--mint);
     color: #0a0a0a;
 }
 
@@ -32,16 +63,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #0a0a0a;
+    background: var(--border-soft);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2a2a2a;
+    background: var(--border);
     border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #7fffb2;
+    background: var(--accent);
 }
 
 
